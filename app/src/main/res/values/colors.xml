@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="text">#3E2723</color>
+    <color name="background_hotel">#B3E5FC</color>
+    <color name="background_restaurant">#D1C4E9</color>
+    <color name="background_shopping">#C8E6C9</color>
+    <color name="background_theater">#FFECB3</color>
+</resources>

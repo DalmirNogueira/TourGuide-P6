@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/hotel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/background_hotel"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image_hotel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/hotel_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image_hotel"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="32dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/hotel"
+                android:textAllCaps="true"
+                android:textColor="@color/text"
+                android:textSize="24sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/shopping"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/background_shopping"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image_shopping"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/shopping_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image_shopping"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="32dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/shopping"
+                android:textAllCaps="true"
+                android:textColor="@color/text"
+                android:textSize="24sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/theater"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/background_theater"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image_theater"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/theater_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image_theater"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="32dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/theater"
+                android:textAllCaps="true"
+                android:textColor="@color/text"
+                android:textSize="24sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/restaurant"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/background_restaurant"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image_restaurant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/restaurant_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image_restaurant"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="32dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/restaurant"
+                android:textAllCaps="true"
+                android:textColor="@color/text"
+                android:textSize="24sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

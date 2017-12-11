@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">TourGuide</string>
+
+    <string name="hotel">Hotel</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="shopping">Shopping</string>
+    <string name="theater">Theater</string>
+
+    <string name="hotel_item1">Meliá Jardim Europa</string>
+    <string name="restaurant_item1">Coco Bambu Anália Franco</string>
+    <string name="shopping_item1">Shopping JK Iguatemi</string>
+    <string name="theater_item1">Teatro Renault</string>
+
+    <string name="hotel_item2">Blue Tree Towers Anália Franco</string>
+    <string name="restaurant_item2">Taste It Food Lounge</string>
+    <string name="shopping_item2">Shopping Pátio Higienópolis</string>
+    <string name="theater_item2">Theatro Municipal De São Paulo</string>
+
+    <string name="hotel_addr1">Rua João Cachoeira, 107</string>
+    <string name="restaurant_addr1">Rua Azevedo Soares, 2150</string>
+    <string name="shopping_addr1">Avenida Pres. Juscelino Kubitschek, 2041</string>
+    <string name="theater_addr1">Avenida Brigadeiro Luís Antônio, 411</string>
+
+    <string name="hotel_addr2">Rua Eleonora Cintra, 960</string>
+    <string name="restaurant_addr2">Rua Joinville, 515</string>
+    <string name="shopping_addr2">Avenida Higienópolis, 618</string>
+    <string name="theater_addr2">Praça Ramos de Azevedo</string>
+</resources>
